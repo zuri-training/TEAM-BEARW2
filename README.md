@@ -20,7 +20,7 @@ The project is at the design phase.
 
 Here is a [link](https://github.com/zuri-training/TEAM-BEARW2.git) to our Github repositroy.
 
-git clone link here.
+git clone URL here.
 
 ### **Features**
 Here is a list of the features requirements:
@@ -99,7 +99,7 @@ Although it's not necessary to be familiar with the Django framework to use this
 
 ___
  ### Collaborators on this project are:
-*  Isiah Aniekan (Team Lead) 
+*  Isiah Aniekan (Team Lead)
    *  Product Design: https://github.com/Isaiahann
 * Ajogu Chinasa
    * Frontend:  https://github.com/ajchinasa
