@@ -1,6 +1,6 @@
-# Name of Member
+# Ezirim Daniel
 
-##### Track/Position: **Track**
+##### Track/Position: **Frontend**
 
 ## Contributions
 
