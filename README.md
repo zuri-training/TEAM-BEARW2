@@ -98,7 +98,7 @@ Although it's not necessary to be familiar with the Django framework to use this
 * Log in to gain full access.
 
 ___
- ### Collaborators on this project are:
+  ### Collaborators on this project are:
 *  Isiah Aniekan (Team Lead)
    *  Product Design: https://github.com/Isaiahann
 * Ajogu Chinasa
@@ -107,11 +107,25 @@ ___
      * Frontend:  https://github.com/one-life-1
  *  Ezirim Daniel
     * Frontend:  https://github.com/Dannie55
- * Mohammad Sadiq  
+ * Mohammad Sadiq
     *  Frontend: https://github.com/Ultimate0266
- * Caren Koroeny 
+ * Caren Koroeny
     *  Frontend: https://github.com/Caren-Koroeny
- * Sei Abiodun
-    *  Product Design: https://github.com/designfounfme
+ * Oluwaseyi Abiodun
+    *  Product Design: https://github.com/designfoundme
 *  Ui Felicia
    * Product Design:  https://github.com/Sisicalabar
+*  Akanbi Hauwa
+   * Product Design:  https://github.com/akanbihauwa
+*  Ngumezi Doumo Ahuna
+   * Product Design:  https://github.com/Snowblaq
+*  Adepeju Adegoke
+   * Product Design:  https://github.com/Oyinfe
+*  Otor John Stephen
+   * Product Design:  https://github.com/Ogenyi25
+*  Monday Iboro Annabel
+   * Product Design:  https://github.com/AmeboChef
+*  Daniel Richard
+   * Product Design:  https://github.com/Richierichy
+*  Atala Omuwunmi
+   * Product Design:  https://github.com/Kareezmahtic
