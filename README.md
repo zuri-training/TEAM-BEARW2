@@ -1,6 +1,6 @@
 <!--project-->
 
- # **PROJECT SPECIFICAIONS**
+ # **PROJECT SPECIFICATIONS**
 
  ### PROJECT NAME:  cc_gen
 
