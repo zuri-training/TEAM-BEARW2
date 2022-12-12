@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: 2F333C;
+ 
+}
+
+/**CODE FOR NAV BAR**/
+
+nav {
+  height: 80px;
+  width: 100%;
+  margin-top: 20px;
+  padding-right: 40px;
+
+  backdrop-filter: blur(40px);
+}
+
+label.logo {
+  line-height: 50px;
+  padding: 0 100px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: black;
+
+  font-family: "Poppins", sans-serif;
+}
+a.active,
+a:hover {
+  color: orangered;
+  transition: 0.5s;
+}
+a.register {
+  color: white;
+  background: linear-gradient(134deg, #eb001b -43.28%, #f79e1b 97%);
+  border-radius: 5px;
+
+  border: none;
+  border-radius: 5px;
+  padding: 20px 20px;
+}
+
+/**CODE FOR THE BEST CARD**/
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: 2rem auto 0 auto;
+}
+.section img {
+  width: 510px;
+  height: 510px;
+  left: 753px;
+  top: 136px;
+  background: url(credit-card-3102347-2582661@0.png);
+}
+
+.section h1 {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 56px;
+  line-height: 84px;
+  width: 526px;
+  height: 168px;
+  color: rgba(35, 31, 32, 0.9);
+}
+.section p {
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+
+
+/**CODE FOR CARDS**/
+.cards img {
+  margin-left: 45px;
+  padding: 0;
+  width: 80px;
+}
+
+/**CODE FOR LIST OFCARDS**/
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    margin-bottom: 22px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+  
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+  }
+.card-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px;
+  gap: 20px;
+  margin-left: 7em;
+  width: 1120px;
+  height: 449px;
+}
+
+.card-list-inner button {
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(134deg, #eb001b -43.28%, #f79e1b 97%);
+  border-radius: 5px;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 60px;
+  padding: 18px 10px;
+  gap: 10px;
+  width: 200px;
+  height: 60px;
+}
+
+.card-list img {
+  width: 326px;
+  height: 207.86px;
+}
+
+.ion-icon-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 15px;
+}
+
+
+
+/**FOOTER CODE**/
+
+ 
+.logoBottom {
+  position: relative;
+  left: 46.46%;
+  right: 45.78%;
+  top: 6.49%;
+  bottom: 77.49%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.footer-note {
+  color: white;
+  margin: auto;
+  padding: 10px;
+  margin-top: 30px;
+  height: 55px;
+  width: 784px;
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
+}
+.navBarBottom {
+  color: FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/**CODE FOR SOCIAL ICONS**/
+
+footer {
+  padding-top: 30px;
+  background-color: #000000;
+}
+.social-iconList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-iconList a {
+  color: white;
+}
+.social-iconList a:hover {
+  color: orangered;
+  transition: 0.2s;
+}
+.social-iconbtn {
+  padding: 20px;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+/*nav .menu{
+    position: relative;
+width: 50px;
+height: 50px;
+left: 292px;
+top: 20px;
+
+opacity: 0.4;
+}*/
+
+ /* MEDIA QUERY */
+
+/* MOBILE */
+
+/*@media  (max-width: 833px){
+nav ul li{
+    display: none;
+}
+
+/**CODE FOR THE BEST CARD**/
+/*.section {
+    display: block;
+    
+    
+  }
+  
+  
+  .section h1 {
+    
+    font-style: normal;
+    font-size: 28px;
+line-height: 42px;
+width: 320px;
+height: 84px;
+    
+  }
+  .section p {
+    margin-right: 10px;
+ 
+    font-style: normal;
+    font-size: 14px;
+line-height: 24px;
+    
+  }
+}*/
+
+/**CODE FOR LIST OFCARDS**/
+/*h3 {
+    display: block;
+   
+    
+    padding-top: 80px;
+    margin-bottom: 22px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+  
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+  }
+  .card-list {
+    display: inline-block;
+    flex-direction:column;
+    
+    width: 320.55px;
+    height: 500px;
+  }
+  
+  .card-list-inner button {
+    display: flex;
+   
+    margin-bottom: 40px;
+
+  }
+  
+  .card-list img {
+    width: 326px;
+    height: 207.86px;
+  }
+  
+ 
+  .cardTop{
+margin-top: 52px;
+  }
+ 
+  
+footer {
+
+ 
+    margin-top: 20em;
+  }
+  .footer-note {
+    width: auto;
+  }*/
