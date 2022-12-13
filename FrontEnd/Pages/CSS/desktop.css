@@ -8,21 +8,12 @@
 
 html,
 body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-}
-
-html,
-body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
   padding: 0;
   margin: 0;
 }
-
 
 .nav-bar {
   height: 100px;
@@ -64,7 +55,7 @@ body {
 .list-2 {
   width: 101px;
   height: 30px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -106,7 +97,7 @@ body {
   text-decoration: none;
   width: 39px;
   height: 30px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -175,7 +166,7 @@ body {
   margin-top: 4%;
   width: 530px;
   height: 241px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -214,11 +205,6 @@ body {
 .links {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  padding: 0;
-  gap: 20px;
-  width: 228px;
-  height: 70px;
   left: 321px;
   top: 659px;
   margin-top: 5%;
@@ -261,7 +247,7 @@ body {
 
 .download a {
   text-decoration: none;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -315,7 +301,6 @@ body {
   margin-left: 40px;
   font-size: 18px;
   font-weight: 600;
-  font-size: 16px;
   margin-top: 30px;
   line-height: 30px;
   color: #ff5f00;
@@ -383,13 +368,12 @@ body {
 }
 
 ::placeholder {
-  font-size: 18px;
   position: absolute;
   width: 105px;
   height: 24px;
   left: 25px;
   top: 24px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -445,11 +429,9 @@ body {
   margin-top: 8%;
   width: 100%;
   height: 462px;
-  left: 0;
   top: 2403px;
   left: 0%;
   right: 0%;
-  top: 0%;
   bottom: 0%;
   align-items: center;
   background: #202326;
@@ -523,8 +505,8 @@ body {
   height: 18px;
   left: 40.42%;
   right: 40.42%;
-  top: calc(50% - 18px/2 + 192px);
-  font-family: 'Poppins';
+  top: calc(50% - 18px / 2 + 192px);
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
