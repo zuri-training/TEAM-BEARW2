@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
-    display: grid;
-    grid-template-rows: 50px 50px 1fr 80px;
-    grid-template-areas: "header"
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 50px 50px 1fr 80px;
+  grid-template-areas: "header"
                          "nav"
                          "main"
                          "aside";
-    height: 100vh; /* full height viewport */
+  height: 100%; 
   }
   
   @media screen and (min-width: 900px) {
@@ -16,27 +27,89 @@ body {
                            "aside  main";
     }
   }
+
+ 
+  .logo-image {
+    margin-top: 80px;
+    width: 111.81px;
+    height: 74px;
+    left: 194px;
+    top: 54px;
+    margin-left: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
   
   header {
     grid-area: header;
-  
-    display: flex; /* a grid item can be a flex container: no problem */
+    display: flex; 
     align-items: center;
   }
   
   .header__icon {
-    margin-left: auto; /* the flexbox way to push things to the right */
+    margin-left: auto; 
   }
   
   
   nav {
+    display: none;
     grid-area: nav;
-  
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  
+  .nav-bar-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    height: 60px;
+    left: 280px;
+    top: 12px;
+    
+  }
+  .right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    height: 60px;
+    flex: none;
+    flex-grow: 0;
+    margin-left: 100%;
+}
+
+  .dropdown{
+    padding-left: 50px;
+  }
+
+  .profile-text{
+    font-family: "Poppins", sans-serif;
+    width: 79px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: -5%;
+  }
+  input[type=text],
+  input[type=email]{
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 14px;
+    margin-bottom: 16px;
+    border: 1px solid #cfd8dc;
+    outline: none;
+    border-radius: 8px;
+  }
+
   @media screen and (min-width: 900px) {
     nav {
       justify-content: inherit;
@@ -49,10 +122,11 @@ body {
   
   main {
     grid-area: main;
-    display: grid; /* ...and yeah, a grid item can be a grid container */
+    display: grid; 
     grid-gap: 1em;
-    grid-template-columns: 1fr 1.33fr; /* same as 1fr 1fr 1fr */
+    grid-template-columns: 1fr 1.33fr; 
     grid-template-rows:20em;
+    margin-top: 10%;
   }
   
   
@@ -128,9 +202,7 @@ body {
     display: grid;
     grid-template-columns: 40px 1fr 1fr;
     grid-template-rows: 20px 20px;
-    grid-column-gap: 1em; /* we only set column gap. we could do something like -> grid-gap: 0 1em; */
-    
-    /* we might not need template areas, but I just wanted to play with them again */
+    grid-column-gap: 1em; 
     grid-template-areas: "user-avatar user-name    user-name"
                          "user-avatar user-message user-timestamp";
     
@@ -154,6 +226,66 @@ body {
     display: flex;
     align-items: stretch;
     justify-content: space-evenly;
+    margin-top: 50%;
+    width: 260px;
+    height: 321px;
+    left: 0px;
+    padding: 30px;
+    gap: 8px;
+  
+  }
+  .profile2{
+background: #F2571B;
+flex: none;
+  }
+  
+  .profile{
+    width: 348px;
+margin-right: 30%;
+top: 92px;
+background: #FFFFFF;
+  }
+  .user-name{
+    box-sizing: border-box;
+width: 164px;
+height: 160px;
+border: 2px solid #FFFFFF;
+border-radius: 80px;
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+  .fname{
+
+    height: 36px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+.email-address{
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(35, 31, 32, 0.9);
+    flex: none;
+    order: 1;
+    margin-top: -10px;
+    flex-grow: 0;
+}
+  
+  .locate-user{
+margin-right: -50px;
+font-family: "Poppins", sans-serif;
+
   }
   
   @media screen and (min-width: 900px) {
@@ -190,7 +322,6 @@ body {
   }
   a:hover {
     color: black;
-    background: orangered;
     
   }
   
@@ -207,26 +338,15 @@ body {
     margin: 0;
   }
   
-  header {
-    background-color: black;
-  }
-  main {
-    background-color: var(--main);
-  }
   aside {
     background-color: var(--aside);
   }
   nav {
     background-color: var(--nav);
     color: black;
+  
   }
   
-  header,
-  main,
-  aside,
-  nav {
-    padding: 24px;
-  }
   
   .nav__item {
     padding: 12px;
@@ -260,12 +380,26 @@ body {
     border-radius: 30px;
   }
   button {
-    background-color:linear-gradient(to right, blue, rgb(192, 255, 213) )
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 10px;
+    gap: 10px;
+    width: 350px;
+    height: 60px;
+    left: 28px;
+    top: 436px;
+    background: linear-gradient(134deg, #EB001B -43.28%, #F79E1B 97%);
+    border-radius: 5px;
     border-radius: 4px;
-    padding: 7px 20px;
+    padding: 17px 60px;
     font-size: 0.8rem;
-    width: 30%;
+  
     
+  }
+  button a{
+    color: #fff;
   }
   main > * {
     background-color: white;
@@ -275,8 +409,7 @@ body {
    form label{
     display:block;
     font-size: 1rem;
-    justify-content: center;
-    
+  
   }
 
   form p{
@@ -344,58 +477,6 @@ body {
     background-color: #fafafa;
   }
   
-  
-  .user {
-    font-size: 0.8rem;
-  }
-  .user__avatar {
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    background-color: rgba(0,0,255,0.1);
-    border: 1px solid rgba(0,0,255,0.3);
-  }
-  .user__name {
-    font-size: 0.9rem;
-    font-weight: 700;
-  }
-  .user__timestamp {
-    font-style: italic;
-    text-align: right;
-  }
-  
-  
-  .legend__item {
-    font-size: 0.9rem;
-  }
-  .legend__icon {
-    width: 8px;
-    height: 8px;
-    background-color: blue;
-    margin-right: 0.6em;
-  }
-  .legend__icon--blue {
-    background-color: #2FA2F4;
-  }
-  .legend__icon--orange {
-    background-color: #FAA05A;
-  }
-  .legend__icon--red {
-    background-color: #F7652B;
-  }
-  .activity-feed__button {
-    background-color: orangered;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-    cursor: pointer;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-  }
-
-  
  footer{
   background: black;
   color: white;
@@ -421,7 +502,6 @@ body {
  figcaption{
   padding: 5px;
   font-size: 0.9rem;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
  }
 
@@ -432,6 +512,3 @@ body {
  }
 
 
- main .button{
-  background-color:linear-gradient(to right, orange, red)
- }
