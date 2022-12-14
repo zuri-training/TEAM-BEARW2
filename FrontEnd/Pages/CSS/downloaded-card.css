@@ -51,7 +51,7 @@ top: 30px;
     height: 60px;
     flex: none;
     flex-grow: 0;
-    margin-left: 100%;
+    margin-left: 80%;
     margin-top: 15%;
 }
 
@@ -78,19 +78,36 @@ top: 30px;
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
-    margin-left: -30%;
+    margin-left: -25%;
     color: rgba(35, 31, 32, 0.9);
  }
- 
+  ::placeholder{
+    width: 117px;
+height: 24px;
+left: 15px;
+top: 38px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #C2C2C2;
+
+  }
+  input{
+    padding: 10px;
+    width: 230px;
+    border-radius: 5px;
+    height: 50px;
+  }
  .input-text{
-    margin-left: -50%;
+    margin-left: -35%;
  }
 
  .search-btn{
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 18px 10px;
 gap: 10px;
 width: 144px;
 height: 50px;
@@ -146,6 +163,7 @@ td, th{
     position: absolute;
     top: 50px;
     left: 20px
+    
 
 }
 aside ul{
@@ -153,7 +171,7 @@ aside ul{
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    gap: 8px;
+    gap: 20px;
     width: 260px;
 height: 321px;
 margin-top: 50px;
@@ -161,10 +179,35 @@ margin-top: 50px;
 
 aside ul li  {
     margin-top: 20px;
-    text-decoration: none;
+    /* width: 49px; */
+height: 30px;
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+flex: none;
+order: 1;
+
   }
-  aside a{
-    text-decoration: none;
-    
+
+  .downloa-img{
+    color: black;
   }
-  
+  .download-card{
+    width: 260px;
+height: 75px;
+background: #FF5F00;
+flex: none;
+order: 2;
+flex-grow: 0;
+padding: 10px;
+color: #ffffff;
+margin-left: -20px;
+  }
+.profile2{
+    color: black;
+}
+.save-img{
+    color: black;
+}
