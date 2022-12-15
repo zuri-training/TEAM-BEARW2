@@ -131,16 +131,7 @@ form input {
     color: white;
 }
 
-.para-1 {
-    width: 100%;
-    height: 50px;
-    justify-content: center;
-    margin-top: 3%;
-    margin-bottom: 10%;
-    padding: 18px 10px;
-    text-decoration: none;
-    border-radius: 5px;
-}
+
 
 .para-2 {
     text-align: center;
@@ -385,19 +376,7 @@ footer {
             background: linear-gradient(134deg, #EB001B -43.28%, #F79E1B 97%);
             color: white;
         }
-    
-        .para-1 {
-            width: 85%;
-            height: 50px;
-            justify-content: center;
-            margin-top: 3%;
-            margin-bottom: 10%;
-            padding: 18px 10px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-    
-    
+
     
         .para-2 {
             text-align: center;
