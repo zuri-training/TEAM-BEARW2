@@ -72,15 +72,6 @@ body {
     font-size: 10px;
 }
 
-.read {
-    margin-top: 10%;
-    background: linear-gradient(134deg, #EB001B -43.28%, #F79E1B 97%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 500;
-    font-size: 15px;
-}
 
 
 .right {
@@ -229,33 +220,13 @@ footer {
     bottom: 0%;
     background: #202326;
 }
-.code-container {
-    flex-wrap: wrap;
-}
+
 
 .code {
     font-size: 40px;
     height: 30px;
     max-width: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -346,8 +317,6 @@ footer {
         grid-area: content;
 
     }
-
-
 
 
     .right {
