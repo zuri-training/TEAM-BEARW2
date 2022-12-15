@@ -378,23 +378,39 @@ footer {
     }
 
 
+ 
     footer {
         width: 100%;
         position: relative;
         background: #202326;
         color: white;
-        top: 25%;
     }
-
     .logo {
         left: 45%;
     }
-
+    .notes {
+        position: relative;
+        width: auto;
+        top: 10%;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    .pages {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+     gap: 10px;
+    }
+    .pages a {
+        text-decoration: none;
+    }
+    
     .social {
         display: flex;
         flex-direction: row;
         justify-content: center;
-
+      
     }
 
 }
