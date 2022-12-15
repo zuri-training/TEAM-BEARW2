@@ -259,7 +259,9 @@ footer {
             position: relative;
             font-size: 15px;
         }
-    
+    .top{
+    margin-left: 10%;
+}
     
         .home {
             position: absolute;
