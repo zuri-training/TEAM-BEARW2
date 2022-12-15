@@ -74,16 +74,6 @@ body {
     font-size: 10px;
 }
 
-.read {
-    margin-top: 10%;
-    background: linear-gradient(134deg, #EB001B -43.28%, #F79E1B 97%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 500;
-    font-size: 15px;
-}
-
 
 .right {
     margin-top: 15%;
@@ -107,18 +97,7 @@ body {
     border-radius: 10px;
 }
 
-#one {
-    background: linear-gradient(134deg, #EB001B -43.28%, #F79E1B 97%);
-}
 
-#two {
-    background: linear-gradient(134deg, #327A60 35.63%, #230B58 93.35%);
-
-}
-
-#three {
-    background: linear-gradient(134deg, #4C0964 7.86%, #EF8B16 97%);
-}
 
 .para {
     width: 60%;
@@ -319,28 +298,14 @@ footer {
     }
 
     .input {
-        width: 50px;
-        height: 50px;
+
         display: flex;
         flex-direction: row;
         top: 20%;
         margin-left: 20%;
         gap: 20%;
-        border-radius: 10px;
     }
 
-    #one {
-        background: linear-gradient(134deg, #EB001B -43.28%, #F79E1B 97%);
-    }
-
-    #two {
-        background: linear-gradient(134deg, #327A60 35.63%, #230B58 93.35%);
-
-    }
-
-    #three {
-        background: linear-gradient(134deg, #4C0964 7.86%, #EF8B16 97%);
-    }
 
     .right {
         height: 50%;
@@ -370,11 +335,6 @@ footer {
     .right-lower {
         margin-left: 60%;
         margin-top: 15%;
-    }
-
-    .lower-bottom-left {
-        position: absolute;
-        left: 9%;
     }
 
 
