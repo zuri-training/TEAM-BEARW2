@@ -3,6 +3,9 @@
  # **PROJECT SPECIFICATIONS**
 
  ### PROJECT NAME:  cc_gen
+ 
+### **HOSTING LINK**
+See hosting [link](https://card-library-1041mqivb-team-bearw2.vercel.app/cc_gen/landing%20page/index.html) .
 
 ## **OVERVIEW**
 The cc_gen is an online digital library of credit card design which enable users to view,
