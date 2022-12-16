@@ -1,3 +1,4 @@
+
 * {
     background: #FFF;
 
@@ -291,7 +292,9 @@ footer {
 
     }
 
-
+    .top{
+        margin-left: 10%;
+    }
     .home {
         position: absolute;
         left: 50%;
