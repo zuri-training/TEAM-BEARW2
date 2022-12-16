@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Poppins&display=swap');
 
 * {
@@ -74,15 +75,7 @@ body {
     font-size: 10px;
 }
 
-.read {
-    margin-top: 10%;
-    background: linear-gradient(134deg, #EB001B -43.28%, #F79E1B 97%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 500;
-    font-size: 15px;
-}
+
 
 
 .right {
@@ -107,18 +100,6 @@ body {
     border-radius: 10px;
 }
 
-#one {
-    background: linear-gradient(134deg, #EB001B -43.28%, #F79E1B 97%);
-}
-
-#two {
-    background: linear-gradient(134deg, #327A60 35.63%, #230B58 93.35%);
-
-}
-
-#three {
-    background: linear-gradient(134deg, #4C0964 7.86%, #EF8B16 97%);
-}
 
 .para {
     width: 60%;
@@ -246,7 +227,9 @@ footer {
         position: relative;
         font-size: 15px;
     }
-
+.top{
+    margin-left: 8%;
+}
 
     .home {
         position: absolute;
@@ -329,18 +312,6 @@ footer {
         border-radius: 10px;
     }
 
-    #one {
-        background: linear-gradient(134deg, #EB001B -43.28%, #F79E1B 97%);
-    }
-
-    #two {
-        background: linear-gradient(134deg, #327A60 35.63%, #230B58 93.35%);
-
-    }
-
-    #three {
-        background: linear-gradient(134deg, #4C0964 7.86%, #EF8B16 97%);
-    }
 
     .right {
         height: 50%;
@@ -383,18 +354,33 @@ footer {
         position: relative;
         background: #202326;
         color: white;
-        top: 25%;
     }
-
     .logo {
         left: 45%;
     }
-
+    .notes {
+        position: relative;
+        width: auto;
+        top: 10%;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    .pages {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+     gap: 10px;
+    }
+    .pages a{
+text-decoration: none;
+    }
+    
     .social {
         display: flex;
         flex-direction: row;
         justify-content: center;
-
+      
     }
-
+    
 }
