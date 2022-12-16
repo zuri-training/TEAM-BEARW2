@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
+.card-section {
+  padding: 20px;
+  justify-content: center;
+}
+
+.heading{
+ margin-left: 30rem;
+}
+
+
+form {
+  margin-top: 2%;
+  margin-left: 32rem;
+  align-items: flex-start;
+  padding: 0;
+  width: 200px;
+  left: 32px;
+  top: 107px;
+  gap: 10px;
+  justify-content: center;
+}
+
+.visas {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+button {
+  margin-top: 2%;
+  width: 350px;
+  height: 60px;
+  left: 32px;
+  top: 642px;
+}
+
+.generate-card {
+  background: linear-gradient(134deg, #eb001b -43.28%, #f79e1b 97%);
+  border-radius: 5px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 18px;
+  margin-left: 30rem;
+}
+
+.generate-card a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.succces-message {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 600px;
+}
+
+.congrats {
+  text-align: center;
+}
+
+.congrats-message {
+  margin-top: 10px;
+  width: 300px;
+  margin-left: 500px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.okay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 10px;
+  gap: 10px;
+  width: 83px;
+  height: 45px;
+  left: 182px;
+  top: 259px;
+  background: linear-gradient(134deg, #eb001b -43.28%, #f79e1b 97%);
+  border-radius: 5px;
+  margin-left: 600px;
+}
+
+.okay a {
+  text-decoration: none;
+  color: #fff;
+}

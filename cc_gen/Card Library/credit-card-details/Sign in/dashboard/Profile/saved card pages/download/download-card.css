@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+
+  }
+ 
+ 
+  .dropdown{
+    padding-left: 50px;
+  }
+  .download-title{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 592px;
+position: absolute;
+width: 1135px;
+height: 60px;
+left: 280px;
+top: 30px;
+
+  }
+  nav {
+    display: none;
+    grid-area: nav;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }.nav-bar-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    height: 60px;
+    left: 280px;
+    top: 12px;
+    
+  }.right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    height: 60px;
+    flex: none;
+    flex-grow: 0;
+    margin-left: 80%;
+    margin-top: 15%;
+}
+
+  .dropdown{
+    padding-left: 50px;
+  }
+ section{
+    display: none;
+    grid-area: nav;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    margin-left: 20%;
+    
+ }
+ .download-cards-title{
+    width: 248px;
+    height: 27px;
+    left: 296px;
+    top: 132px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: -25%;
+    color: rgba(35, 31, 32, 0.9);
+ }
+  ::placeholder{
+    width: 117px;
+height: 24px;
+left: 15px;
+top: 38px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #C2C2C2;
+
+  }
+  input{
+    border-radius: 5px;
+    height: 50px;
+    border: #fff;
+  }
+ .input-text{
+    margin-left: -35%;
+ }
+
+ .search-btn{
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+width: 144px;
+height: 50px;
+color:  #FFFFFF;
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+background: linear-gradient(134deg, #EB001B -43.28%, #F79E1B 97%);
+border-radius: 5px;
+flex: none;
+order: 1;
+flex-grow: 0;
+ }
+ main{
+ 
+    grid-gap: 1em;
+    grid-auto-flow: column;
+    grid-template-columns: 2fr 20; 
+    grid-template-rows:20em;
+    justify-content: end;
+    margin-top: 5%;
+     
+  
+  width: 100%;
+
+ 
+ 
+    
+ }
+table {
+    border-collapse: collapse;
+    width: 800px;
+    margin-left: 20%;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+td, th{
+   
+    text-align: center;
+    height: 50px;
+}
+
+.tbl{
+    background-color: #F5F5F5;;
+}
+ 
+ aside{
+    float: left;
+    position: absolute;
+    top: 50px;
+    left: 20px
+    
+
+}
+aside ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 260px;
+height: 321px;
+margin-top: 50px;
+}
+
+aside ul li  {
+    margin-top: 20px;
+    /* width: 49px; */
+height: 30px;
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+flex: none;
+order: 1;
+
+  }
+
+  .downloa-img{
+    color: black;
+  }
+  .download-card{
+    width: 260px;
+height: 75px;
+background: #FF5F00;
+flex: none;
+order: 2;
+flex-grow: 0;
+padding: 10px;
+color: #ffffff;
+margin-left: -20px;
+  }
+.profile2{
+    color: black;
+}
+.save-img{
+    color: black;
+}
+footer{
+    /* display: flex; */
+    width: 100%;
+    height: 60px;
+   
+    background: #202326;
+    margin-top: 50px;
+}
+
+ 
+.icon-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ } 
+.footer-text{
+    height: 18px;
+ 
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+color: rgba(255, 255, 255, 0.75);
+}
+.social-iconList {
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    padding-left: 27em;
+  }
+  .social-iconList a {
+    color: white;
+  }
+  .social-iconList a:hover {
+    color: orangered;
+    transition: 0.2s;
+  }
+  .social-iconbtn {
+    padding: 20px;
+  }
