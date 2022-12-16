@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Poppins&display=swap');
 
 * {
@@ -267,7 +268,6 @@ footer {
 
 @media screen and (min-width: 800px) {
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Poppins&display=swap');
-    
     body {
         font-style: normal;
         font-weight: 450;
@@ -286,7 +286,9 @@ footer {
         position: relative;
         font-size: 15px;
     }
-
+.top{
+    margin-left: 10%;
+}
 
     .home {
         position: absolute;
